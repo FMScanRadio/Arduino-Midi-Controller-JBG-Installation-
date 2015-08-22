@@ -1,3 +1,4 @@
+//Requires NewPing library for the Arduino code to function: http://playground.arduino.cc/Code/NewPing
 #include <NewPing.h>
 
 #define ECHO_PIN_1     2
