@@ -9,7 +9,7 @@
 #define TRIGGER_PIN_3  7
 #define ECHO_PIN_4     8
 #define TRIGGER_PIN_4  9
-#define MAX_DISTANCE 400 //In meters. Set max distance according to specs. 300m for SRF04, 400 for SRF05.
+#define MAX_DISTANCE 400 //In centimeters. Set max distance according to specs. 300cm for SRF04, 400cm for SRF05.
 
 NewPing sonar1(TRIGGER_PIN_1, ECHO_PIN_1, MAX_DISTANCE);
 NewPing sonar2(TRIGGER_PIN_2, ECHO_PIN_2, MAX_DISTANCE);
